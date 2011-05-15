@@ -15,7 +15,7 @@ end
 
 desc 'Build and deploy'
 task :deploy => :build do
-  sh 'rsync -rtz --progress --delete _site/ scottwei@scottweisman.com:~/public_html/'
+  sh 'rsync -rtz --progress --delete _site/ scottwei@scottweisman.com:~/public_html/scottweisman.com'
 end
 
 def jekyll(opts = '')
