@@ -1,0 +1,5 @@
+<li>
+  <h2><a href="{{ site.base_url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+  <p class="excerpt">{{ post.content | truncatewords: 125 | textilize }}</p>
+  <p class="readmore"><a href="{{ site.base_url }}{{ post.url }}" title="{{ post.title }}">Continue reading</a></p>
+</li>

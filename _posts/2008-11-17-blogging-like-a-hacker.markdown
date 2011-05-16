@@ -3,10 +3,6 @@ layout: post
 title: Blogging Like a Hacker
 ---
 
-h1. {{ page.title }}
-
-p(meta). 17 Nov 2008 - San Francisco
-
 Back in 2000, when I thought I was going to be a professional writer, I spent hours a day on LiveJournal doing writing practice with other aspiring poets and authors. Since then I've blogged at three different domains about web standards, print design, photography, Flash, illustration, information architecture, ColdFusion, package management, PHP, CSS, advertising, Ruby, Rails, and Erlang.
 
 I love writing. I get a kick out of sharing my thoughts with others. The act of transforming ideas into words is an amazingly efficient way to solidify and refine your thoughts about a given topic. But as much as I enjoy blogging, I seem to be stuck in a cycle of quitting and starting over. Before starting the current iteration, I resolved to do some introspection to determine the factors that were leading to this destructive pattern.
