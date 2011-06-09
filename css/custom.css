@@ -1,0 +1,108 @@
+/* Common */
+body {color:#444444;}
+.container {padding:50px 0px;width:590px;}
+
+h1 {font-size:2em;margin-bottom:0.25em;}
+h2 {font-size:1.5em;line-height:1;margin-bottom:.5em;}
+h3 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
+h4 {font-size:1em;font-weight:bold;margin-bottom:1.5em;}
+h5 {font-size:1em;font-weight:bold;}
+
+a {text-decoration: none; color: #0066CC;}
+a:visited {color: #0066CC;}
+a:hover {text-decoration: none; color: #777;}
+a:link.active, a:visited.active {color: #0066CC;}
+
+
+/* Home */
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+  margin: 0 0 2em 0;
+  padding-left: 0em;
+}
+
+ul.posts li {
+	line-height: 1.75em;
+}
+
+/* Post */
+
+.post_date {
+	color: #aaa;
+}
+
+/* Site */
+
+header {
+	font-family: Gill Sans, sans-serif;
+	border-bottom: 1px solid #999;
+  margin-bottom: 2em;
+}
+
+.title {
+  color: #022358;
+	font-weight: normal;
+}
+
+.title a {
+	color: #022358;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+.title a:hover {
+	color: #777;
+}
+
+nav {
+	display: inline;
+}
+
+nav ul {
+	float: right;
+	list-style-type: none;
+}
+nav ul, nav ol {
+	margin: 0;
+	padding-top: 16px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+nav ul li a {
+	text-decoration: none;
+  margin-left: 1em;
+	color: #022358;
+}
+
+nav ul li a:visited {
+	color: #022358;
+}
+
+nav ul li a:hover {
+	color: #777;
+}
+
+footer {
+	font-family: Gill Sans, sans-serif;
+	font-size: 90%;
+	color: #666;
+	border-top: 1px solid #999;
+	margin-top: 2em;
+}
+
+footer .contact {
+	float: left;
+	margin-top: 1em;
+}
+
+footer .contact a {
+	color: #8085C1;
+}
+footer .contact a:hover {
+	color: #666;
+}

@@ -3,9 +3,14 @@ layout: default
 ---
 <div id="post">
 <h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date: "%B %d, %Y"}}</p>
+<p class="post_date ">{{ page.date | date: "%B %d, %Y"}}</p>
 {{ content }}
 </div>
+
+<div id="follow">
+  <h3><strong><a href="http://twitter.com/scottweisman">Follow me on twitter</a></strong><h3>
+</div>
+
 
 <div id="related">
   <h2>Related Posts</h2>
